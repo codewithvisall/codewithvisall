@@ -1,5 +1,9 @@
 name: GitHub Snake Game
 
+# Add permissions block here
+permissions:
+  contents: write
+
 on:
   # Schedule the workflow to run daily at midnight UTC
   schedule:
